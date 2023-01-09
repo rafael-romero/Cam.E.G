@@ -1,0 +1,47 @@
+
+.menu {
+  font-size: var(--tamanio-texto);
+  font-weight: 600;
+  
+}
+
+.color_letras_menu {
+  color: #000; 
+  transition: all 1s;
+}
+
+.color_letras_menu:hover {
+  color: #f0c70c;
+  text-decoration: overline;
+}
+
+#logo-cameg {
+  position: relative;
+  left: 5rem;
+}
+
+.home {
+  margin-bottom: 4rem;
+}
+
+.imagen_banner {
+  max-width: 90vw;
+  height: auto;
+}
+
+.contenedor__imagen-banner {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto_banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  color: var(--color-blanco);
+  font-weight: 700;
+  font-size: var(--tamanio-subtitulos);
+  text-shadow: -2px -2px 1px var(--color-verde-logo);
+}

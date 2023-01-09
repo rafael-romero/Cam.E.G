@@ -1,0 +1,27 @@
+:root {
+  --color-blanco: #ffffff;
+  --color-gris__claro: #b5b5d0;
+  --color-celeste: #006eb6;
+  --color-celeste-claro: #a7ecf8b2;
+  --color-verde-logo: #4eb379;
+  --color-naranja-logo: #f39852;
+  --tamanio-texto: 2.5rem;
+  --tamanio-titulos: 4rem;
+  --tamanio-subtitulos: 3rem;
+}
+
+html,
+body {
+  margin: 5rem;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+}
+
+body {
+  background-color: var(--color-celeste-claro);
+}
+
+
+
+

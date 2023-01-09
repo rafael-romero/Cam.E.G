@@ -1,0 +1,22 @@
+.contenedor__testimonios { 
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.imagen-testimonio {
+  max-width: 16rem;
+  height: auto;
+}
+
+.titulo-testimonio {
+  font-size: var(--tamanio-titulos);
+  margin-top: 7rem;
+  text-decoration: none;
+  color: var(--color-verde-logo);
+}
+
+.tamanio_titulo {
+  font-size: var(--tamanio-titulos);
+}
+
+

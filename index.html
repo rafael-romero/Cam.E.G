@@ -1,16 +1,226 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Cam.E.G</title>
-    <meta name="description" content="Pagina web de la camara empresarial de grows argentinos.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href=css/style.css>
+    <meta
+      name="description"
+      content="Pagina web de la camara empresarial de grows argentinos."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav-home.css" />
+    <link rel="stylesheet" href="css/testimonios.css" />
+    <link rel="stylesheet" href="css/quienes-somos.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
   </head>
   <body>
-    
-    
-    
+    <section class="menu">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary bg-light bg-gradient fixed-top border-success border-4 border-bottom border-opacity-50"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="img/Logo-Alta-FBlanco-sin-fondo.png"
+              alt="logo-CamEG"
+              width="170"
+              height="170"
+              id="logo-cameg"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link color_letras_menu"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color_letras_menu" href="#quienes-somos"
+                  >Quienes Somos</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link color_letras_menu"
+                  href="#contenedor-testimonios"
+                  >Testimonios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color_letras_menu" href="#contacto"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="home" id="home">
+      <div class="contenedor__imagen-banner">
+        <img
+          src="./img/banner_plantin.jpg"
+          alt="cultivo_indoor"
+          class="imagen_banner img-fluid"
+        />
+        <p class="texto_banner">
+          Cámara formada por comerciantes del sector que nuclea Grows & Tiendas
+          de Cultivo, productores y distribuidores de toda la Argentina.
+        </p>
+      </div>
+    </section>
+
+    <section id="quienes-somos">
+      <h2 class="titulo__quienes">Quienes Somos</h2>
+      <p class="texto__quienes">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero
+        voluptate vel dolores minus quia? Incidunt maxime id sapiente minus
+        cumque natus nam, necessitatibus debitis impedit eius neque sunt maiores
+        voluptatibus accusantium esse? Facere, tempora modi commodi architecto
+        deserunt voluptatibus inventore incidunt earum a quas minima possimus
+        unde illo ut.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="titulo-testimonio text-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="currentColor"
+          class="bi bi-megaphone"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z"
+          />
+        </svg>
+        Nuestras Voces
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="currentColor"
+          class="bi bi-megaphone"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z"
+          />
+        </svg>
+      </h2>
+      <div
+        class="contenedor__testimonios container-fluid"
+        id="contenedor-testimonios"
+      >
+        <div class="container px-4 text-center">
+          <div class="row justify-content-center">
+            <div class="col-sm-auto p-3">
+              <img
+                src="./img/testimonios/alejandro_oviedo.jpg"
+                alt=""
+                class="imagen-testimonio rounded-4 border border-start-0 border-top-0 border-success border-4"
+              />
+            </div>
+            <div class="col-sm-auto p-3">
+              <img
+                src="./img/testimonios/giuliano_mengarelli.jpg"
+                alt=""
+                class="imagen-testimonio rounded-4 border border-start-0 border-top-0 border-success border-4"
+              />
+            </div>
+            <div class="col-sm-auto p-3">
+              <img
+                src="./img/testimonios/hector_marcelo_escurachi.jpg"
+                alt=""
+                class="imagen-testimonio rounded-4 border border-start-0 border-top-0 border-success border-4"
+              />
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-sm-auto p-3">
+              <img
+                src="./img/testimonios/martin_ariznabarreta.jpg"
+                alt=""
+                class="imagen-testimonio rounded-4 border border-start-0 border-top-0 border-success border-4"
+              />
+            </div>
+            <div class="col-sm-auto p-3">
+              <img
+                src="./img/testimonios/matias_svitek.jpg"
+                alt=""
+                class="imagen-testimonio rounded-4 border border-start-0 border-top-0 border-success border-4"
+              />
+            </div>
+            <div class="col-sm-auto p-3">
+              <img
+                src="./img/testimonios/nadia_podsialdo.jpg"
+                alt=""
+                class="imagen-testimonio rounded-4 border border-start-0 border-top-0 border-success border-4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+      <div class="container-md container-fluid">
+        <ul class="lista__contacto">
+          <li>
+            <label for="facebook"
+              >Facebook
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-facebook"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                />
+              </svg>
+            </label>
+          </li>
+          <li>
+            la
+          </li>
+          <li></li>
+        </ul>
+
+        <p>E-mail</p>
+        <p>Telefono</p>
+        <p>Facebook</p>
+      </div>
+    </section>
   </body>
 </html>

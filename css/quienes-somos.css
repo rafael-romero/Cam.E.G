@@ -1,0 +1,10 @@
+.titulo__quienes {
+  text-align: center;
+  font-size: var(--tamanio-subtitulos);
+}
+
+.texto__quienes {
+  font-size: var(--tamanio-texto);
+  font-weight: 600;
+  margin-top: 2rem;
+}
